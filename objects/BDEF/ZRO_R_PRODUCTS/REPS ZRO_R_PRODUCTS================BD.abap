@@ -12,6 +12,7 @@ authorization master ( instance )
   delete;
   field ( numbering : managed ) Guid;
   field ( readonly ) Guid;
+
   association _prod_sepcs { create; }
 
   mapping for zro_products
